@@ -2,14 +2,14 @@
 using namespace std;
 
 int main() {
-    int a, b, temp;
+    int a, b, c;
 
-    cout << "Введіть два числа: ";
+    cout << "Введіть a і b: ";
     cin >> a >> b;
 
-    temp = a;
+    c = a;
     a = b;
-    b = temp;
+    b = c;
 
     cout << "Після обміну:" << endl;
     cout << "a = " << a << endl;
